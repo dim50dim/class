@@ -29,3 +29,12 @@
  
  you.talk()
  
+ function Person1 () {
+
+ }
+ Person1.prototype.talk = function () {
+    console.log('talking 1111');
+    
+ }
+ const one = new Person1();
+ one.talk();
