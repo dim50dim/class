@@ -30,11 +30,10 @@
  you.talk()
  
  function Person1 () {
+       this.age = 12
+ }
 
- }
- Person1.prototype.talk = function () {
-    console.log('talking 1111');
-    
- }
  const one = new Person1();
- one.talk();
+ console.log(one.age);
+ 
+
