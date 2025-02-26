@@ -21,4 +21,5 @@
  const you = new Person()
  console.log(me.talk());
  console.log(you.talk());
+ console.log(me);
  
