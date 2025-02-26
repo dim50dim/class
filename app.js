@@ -12,18 +12,18 @@
 //  console.log(you.talk());
 
 
- class Person{
-    talk() {
-        return 'Talking'
-    }
- }
- const me = new Person()
- const you = new Person()
+//  class Person{
+//     talk() {
+//         return 'Talking'
+//     }
+//  }
+//  const me = new Person()
+//  const you = new Person()
 //  console.log(me.talk());
 //  console.log(you.talk());
 //  console.log(me);
- Person.prototype.talk =  function (){
-    console.log('New Talking');
+//  Person.prototype.talk =  function (){
+//     console.log('New Talking');
     
 //  }
  
@@ -45,3 +45,12 @@
 // }
 // const mike = new Person2();
 // mike.talk()
+
+const person = {
+    talk() {
+        console.log('talking');
+        
+    }
+}
+const me = Object.create(person);
+me.talk();
