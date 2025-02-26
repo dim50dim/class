@@ -22,4 +22,10 @@
 //  console.log(me.talk());
 //  console.log(you.talk());
 //  console.log(me);
+ Person.prototype.talk =  function (){
+    console.log('New Talking');
+    
+ }
+ me.talk()
+ you.talk()
  
