@@ -26,6 +26,6 @@
     console.log('New Talking');
     
  }
- me.talk()
+ 
  you.talk()
  
