@@ -37,3 +37,11 @@
  console.log(one.age);
  
 
+class Person2 {
+    talk () {
+    console.log('Bluffing');
+    
+    }
+}
+const mike = new Person2();
+mike.talk()
