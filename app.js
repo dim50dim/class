@@ -19,6 +19,6 @@
  }
  const me = new Person()
  const you = new Person()
- console.log(me);
- console.log(you);
+ console.log(me.talk());
+ console.log(you.talk());
  
